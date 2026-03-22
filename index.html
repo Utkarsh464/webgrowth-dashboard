@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="WebGrowth builds custom business intelligence dashboards for restaurants, clinics, retailers, lenders, and real estate firms. Your business data, beautifully visualised."/>
+  <title>WebGrowth — Custom Business Dashboards</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Instrument+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- ══════════════════════════════════════════════════
+       NAV
+  ══════════════════════════════════════════════════ -->
+  <nav id="nav">
+    <a href="#" class="nav-logo">
+      <div class="logo-mark"></div>
+      <span class="logo-text">Web<span class="logo-dot">.</span>Growth</span>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#demo">Work</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#industries">Industries</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <a href="https://www.instagram.com/webgrowth.in" target="_blank" class="btn-nav btn-outline">@webgrowth.in</a>
+      <a href="https://www.instagram.com/webgrowth.in" target="_blank" class="btn-nav btn-solid">Start a Project</a>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════════════ -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="hero-bg-noise"></div>
+      <div class="hero-bg-lines"></div>
+      <div class="hero-bg-glow"></div>
+      <div class="hero-bg-glow-2"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <div class="eyebrow-line"></div>
+        <span class="eyebrow-text">Custom Business Software Studio</span>
+      </div>
+
+      <h1 class="hero-headline">
+        <span class="line"><span class="word">Your business,</span></span>
+        <span class="line"><span class="word outline">beautifully</span></span>
+        <span class="line"><span class="word"><em>measured.</em></span></span>
+      </h1>
+
+      <p class="hero-sub">
+        We build bespoke management dashboards for ambitious businesses. Real-time data, automated workflows, and interfaces your team will actually want to use.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#demo" class="btn-hero btn-hero-primary">
+          <span>See Live Demo</span>
+          <span class="arrow-icon">↗</span>
+        </a>
+        <a href="https://www.instagram.com/webgrowth.in" target="_blank" class="btn-hero btn-hero-ghost">
+          DM for a free consultation
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div>
+          <div class="hero-stat-num" data-count="40" data-suffix="+">0+</div>
+          <div class="hero-stat-label">Businesses Served</div>
+        </div>
+        <div>
+          <div class="hero-stat-num" data-count="6" data-suffix=" Industries">0</div>
+          <div class="hero-stat-label">Verticals Covered</div>
+        </div>
+        <div>
+          <div class="hero-stat-num" data-count="100" data-suffix="%">0%</div>
+          <div class="hero-stat-label">Custom Built</div>
+        </div>
+        <div>
+          <div class="hero-stat-num" data-count="0" data-prefix="₹" data-suffix="/mo hosting">₹0</div>
+          <div class="hero-stat-label">Average Hosting Cost</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════
+       MARQUEE
+  ══════════════════════════════════════════════════ -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <div class="marquee-item"><span class="marquee-icon">⚡</span><span class="marquee-text"><strong>Real-time</strong> data sync</span></div>
+      <div class="marquee-item"><span class="marquee-icon">🔐</span><span class="marquee-text"><strong>Private</strong> cloud hosting</span></div>
+      <div class="marquee-item"><span class="marquee-icon">📲</span><span class="marquee-text"><strong>WhatsApp</strong> automation</span></div>
+      <div class="marquee-item"><span class="marquee-icon">📄</span><span class="marquee-text"><strong>PDF</strong> report export</span></div>
+      <div class="marquee-item"><span class="marquee-icon">📊</span><span class="marquee-text"><strong>Live</strong> charts & KPIs</span></div>
+      <div class="marquee-item"><span class="marquee-icon">📱</span><span class="marquee-text"><strong>Mobile</strong> responsive</span></div>
+      <div class="marquee-item"><span class="marquee-icon">🎨</span><span class="marquee-text"><strong>Custom</strong> branding</span></div>
+      <div class="marquee-item"><span class="marquee-icon">☁️</span><span class="marquee-text"><strong>Zero</strong> hosting costs</span></div>
+      <div class="marquee-item"><span class="marquee-icon">🤖</span><span class="marquee-text"><strong>Automated</strong> reminders</span></div>
+      <div class="marquee-item"><span class="marquee-icon">🔒</span><span class="marquee-text"><strong>JWT</strong> authentication</span></div>
+      <!-- Duplicate for seamless loop -->
+      <div class="marquee-item"><span class="marquee-icon">⚡</span><span class="marquee-text"><strong>Real-time</strong> data sync</span></div>
+      <div class="marquee-item"><span class="marquee-icon">🔐</span><span class="marquee-text"><strong>Private</strong> cloud hosting</span></div>
+      <div class="marquee-item"><span class="marquee-icon">📲</span><span class="marquee-text"><strong>WhatsApp</strong> automation</span></div>
+      <div class="marquee-item"><span class="marquee-icon">📄</span><span class="marquee-text"><strong>PDF</strong> report export</span></div>
+      <div class="marquee-item"><span class="marquee-icon">📊</span><span class="marquee-text"><strong>Live</strong> charts & KPIs</span></div>
+      <div class="marquee-item"><span class="marquee-icon">📱</span><span class="marquee-text"><strong>Mobile</strong> responsive</span></div>
+      <div class="marquee-item"><span class="marquee-icon">🎨</span><span class="marquee-text"><strong>Custom</strong> branding</span></div>
+      <div class="marquee-item"><span class="marquee-icon">☁️</span><span class="marquee-text"><strong>Zero</strong> hosting costs</span></div>
+      <div class="marquee-item"><span class="marquee-icon">🤖</span><span class="marquee-text"><strong>Automated</strong> reminders</span></div>
+      <div class="marquee-item"><span class="marquee-icon">🔒</span><span class="marquee-text"><strong>JWT</strong> authentication</span></div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════
+       INTERACTIVE DEMO
+  ══════════════════════════════════════════════════ -->
+  <section class="demo-section" id="demo">
+    <div class="demo-section-header">
+      <div>
+        <div class="section-label reveal">Live Product Demo</div>
+        <h2 class="section-title reveal reveal-delay-1">
+          One platform.<br><em>Every industry.</em>
+        </h2>
+      </div>
+      <div class="reveal reveal-delay-2">
+        <p class="demo-desc">
+          Switch between industries below to see how the same platform adapts to completely different businesses — each with its own KPIs, workflows, and real-time data.
+        </p>
+        <div class="industry-switcher">
+          <button class="ind-btn active" data-industry="finance">
+            <span class="ind-icon">💳</span> Finance
+          </button>
+          <button class="ind-btn" data-industry="restaurant">
+            <span class="ind-icon">🍽️</span> Restaurant
+          </button>
+          <button class="ind-btn" data-industry="clinic">
+            <span class="ind-icon">🏥</span> Clinic
+          </button>
+          <button class="ind-btn" data-industry="realestate">
+            <span class="ind-icon">🏢</span> Real Estate
+          </button>
+          <button class="ind-btn" data-industry="retail">
+            <span class="ind-icon">🛍️</span> Retail
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- DEMO WINDOW -->
+    <div class="demo-window-wrap reveal">
+      <div class="demo-window">
+        <div class="demo-titlebar">
+          <div class="demo-dot" style="background:#ff5f57"></div>
+          <div class="demo-dot" style="background:#febc2e"></div>
+          <div class="demo-dot" style="background:#28c840"></div>
+          <div class="demo-url-bar">financeos.app/dashboard</div>
+          <div style="display:flex;align-items:center;gap:6px;font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(248,246,242,0.3)">
+            <span style="width:6px;height:6px;border-radius:50%;background:#00e676;animation:pulse 2s infinite;display:block"></span>
+            <span id="demo-clock">09:00:00</span>
+          </div>
+        </div>
+
+        <div class="demo-inner">
+          <!-- SIDEBAR -->
+          <div class="demo-sidebar">
+            <div class="dsb-brand">
+              <div class="dsb-brand-icon" style="background:rgba(0,212,255,0.15)">💳</div>
+              <div>
+                <div class="dsb-brand-name">FinanceOS</div>
+                <div class="dsb-brand-type">FINANCE</div>
+              </div>
+            </div>
+            <div style="padding:7px 12px;border-bottom:1px solid rgba(248,246,242,0.07);display:flex;align-items:center;gap:6px">
+              <div class="dsb-dot"></div>
+              <span style="font-size:9px;font-family:'JetBrains Mono',monospace;color:rgba(248,246,242,0.2);letter-spacing:0.1em">SYSTEM LIVE</span>
+            </div>
+            <div class="dsb-nav">
+              <div class="dsb-item active" style="background:#00d4ff;color:#080808">📊 Dashboard</div>
+              <div class="dsb-item">💳 Loans</div>
+              <div class="dsb-item">💰 Payments</div>
+              <div class="dsb-item">📄 Reports</div>
+              <div class="dsb-item">⚙️ Settings</div>
+            </div>
+            <div class="dsb-user">
+              <div class="dsb-avatar" style="background:#00d4ff">R</div>
+              <div>
+                <div class="dsb-uname">Rajesh S.</div>
+                <div class="dsb-uemail">admin</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- MAIN CONTENT -->
+          <div class="demo-main">
+            <div class="demo-page active" id="demo-main-page">
+              <div class="demo-page-header">
+                <div>
+                  <div class="demo-page-title">Loan Portfolio</div>
+                  <div class="demo-page-sub">6 active loans · ₹20.5L disbursed</div>
+                </div>
+                <div class="demo-live-pill">
+                  <span style="width:5px;height:5px;border-radius:50%;background:#00e676;animation:pulse 1.5s infinite;display:block"></span>
+                  LIVE
+                </div>
+              </div>
+
+              <!-- KPI GRID -->
+              <div class="demo-kpi-grid">
+                <div class="demo-kpi" style="border-bottom: 2px solid #00d4ff99">
+                  <span class="demo-kpi-icon">💰</span>
+                  <div class="demo-kpi-label">DISBURSED</div>
+                  <div class="demo-kpi-val">₹20.5L</div>
+                  <div class="demo-kpi-delta">↑ 12.4%</div>
+                </div>
+                <div class="demo-kpi" style="border-bottom: 2px solid rgba(0,230,118,0.6)">
+                  <span class="demo-kpi-icon">📈</span>
+                  <div class="demo-kpi-label">RECOVERED</div>
+                  <div class="demo-kpi-val">₹4.18L</div>
+                  <div class="demo-kpi-delta">↑ 8.2%</div>
+                </div>
+                <div class="demo-kpi" style="border:1px solid rgba(0,212,255,0.25);border-bottom: 2px solid #00d4ff">
+                  <span class="demo-kpi-icon">🪙</span>
+                  <div class="demo-kpi-label">INTEREST</div>
+                  <div class="demo-kpi-val" id="live-interest" style="color:#00d4ff;font-size:16px">₹2,37,456.33</div>
+                  <div class="demo-kpi-delta" style="color:#00e676">● LIVE</div>
+                </div>
+                <div class="demo-kpi" style="border-bottom: 2px solid rgba(255,77,109,0.6)">
+                  <span class="demo-kpi-icon">⚠️</span>
+                  <div class="demo-kpi-label">OUTSTANDING</div>
+                  <div class="demo-kpi-val">₹18.7L</div>
+                  <div class="demo-kpi-delta">5 active</div>
+                </div>
+              </div>
+
+              <!-- CHART ROW -->
+              <div class="demo-chart-row">
+                <div class="demo-chart-card">
+                  <div class="demo-chart-title">Monthly Recovery</div>
+                  <div class="demo-bars">
+                    <div class="demo-bar" style="height:30%;background:linear-gradient(180deg,#00d4ff,#00d4ff88)"></div>
+                    <div class="demo-bar" style="height:50%;background:linear-gradient(180deg,#00d4ff,#00d4ff88)"></div>
+                    <div class="demo-bar" style="height:42%;background:linear-gradient(180deg,#00d4ff,#00d4ff88)"></div>
+                    <div class="demo-bar" style="height:68%;background:linear-gradient(180deg,#00d4ff,#00d4ff88)"></div>
+                    <div class="demo-bar" style="height:55%;background:linear-gradient(180deg,#00d4ff,#00d4ff88)"></div>
+                    <div class="demo-bar" style="height:78%;background:linear-gradient(180deg,#00d4ff,#00d4ff88)"></div>
+                    <div class="demo-bar" style="height:62%;background:linear-gradient(180deg,#00d4ff,#00d4ff88)"></div>
+                    <div class="demo-bar" style="height:88%;background:linear-gradient(180deg,#00d4ff,#00d4ff88)"></div>
+                    <div class="demo-bar" style="height:70%;background:linear-gradient(180deg,#00d4ff,#00d4ff88)"></div>
+                    <div class="demo-bar" style="height:92%;background:linear-gradient(180deg,#00d4ff,#00d4ff88)"></div>
+                    <div class="demo-bar" style="height:80%;background:linear-gradient(180deg,#00d4ff,#00d4ff88)"></div>
+                    <div class="demo-bar" style="height:100%;background:linear-gradient(180deg,#00d4ff,#00d4ff88)"></div>
+                  </div>
+                </div>
+                <div class="demo-chart-card">
+                  <div class="demo-chart-title demo-donut-title">Portfolio Split</div>
+                  <div class="demo-donut-wrap">
+                    <svg width="80" height="80" viewBox="0 0 80 80">
+                      <circle cx="40" cy="40" r="30" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="12"/>
+                      <circle class="demo-donut-circle" cx="40" cy="40" r="30" fill="none" stroke="#00d4ff" stroke-width="12"
+                        stroke-dasharray="94 94" stroke-dashoffset="23" stroke-linecap="round"
+                        transform="rotate(-90 40 40)" style="transition:all 0.5s"/>
+                      <circle class="demo-donut-circle" cx="40" cy="40" r="30" fill="none" stroke="#ff4d6d" stroke-width="12"
+                        stroke-dasharray="70 188" stroke-dashoffset="-71" stroke-linecap="round"
+                        transform="rotate(-90 40 40)" style="transition:all 0.5s"/>
+                      <text x="40" y="36" text-anchor="middle" fill="#f8f6f2" font-size="12" font-family="Playfair Display" font-weight="700" class="demo-donut-pct">18%</text>
+                      <text x="40" y="47" text-anchor="middle" fill="rgba(248,246,242,0.4)" font-size="8" font-family="JetBrains Mono">recov</text>
+                    </svg>
+                    <div class="demo-legend">
+                      <div class="demo-legend-item">
+                        <div class="demo-legend-dot" style="background:#00d4ff"></div>
+                        <div>
+                          <div class="demo-legend-label">Recovered</div>
+                          <div class="demo-legend-val" style="color:#00d4ff">₹4.18L</div>
+                        </div>
+                      </div>
+                      <div class="demo-legend-item">
+                        <div class="demo-legend-dot" style="background:#ff4d6d"></div>
+                        <div>
+                          <div class="demo-legend-label">Pending</div>
+                          <div class="demo-legend-val" style="color:#ff4d6d">₹18.7L</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════
+       FEATURES
+  ══════════════════════════════════════════════════ -->
+  <section class="features-section" id="features">
+    <div style="max-width:1200px;margin:0 auto">
+      <div class="section-label reveal">What we build into every product</div>
+      <h2 class="section-title reveal reveal-delay-1">
+        Enterprise features.<br><em>Startup speed.</em>
+      </h2>
+
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <div class="feature-number">01</div>
+          <div class="feature-icon-wrap">⚡</div>
+          <h3 class="feature-title">Real-time everything</h3>
+          <p class="feature-desc">Every number on your dashboard updates live. Interest ticking per second. Orders as they come in. Stock levels the moment something sells.</p>
+          <span class="feature-tag">WebSocket · Live sync</span>
+        </div>
+        <div class="feature-card reveal reveal-delay-1">
+          <div class="feature-number">02</div>
+          <div class="feature-icon-wrap">📲</div>
+          <h3 class="feature-title">Automated messaging</h3>
+          <p class="feature-desc">WhatsApp reminders, email notifications, appointment confirmations — all automated. Set it once, never manually follow up again.</p>
+          <span class="feature-tag">WhatsApp · Email · SMS</span>
+        </div>
+        <div class="feature-card reveal reveal-delay-2">
+          <div class="feature-number">03</div>
+          <div class="feature-icon-wrap">📄</div>
+          <h3 class="feature-title">Professional documents</h3>
+          <p class="feature-desc">One-click PDF generation. Invoices, statements, reports, receipts — branded with your identity and ready to send to clients instantly.</p>
+          <span class="feature-tag">PDF · CSV · Excel</span>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-number">04</div>
+          <div class="feature-icon-wrap">🔐</div>
+          <h3 class="feature-title">Private by design</h3>
+          <p class="feature-desc">Your data on your servers. JWT authentication, Google OAuth, rate limiting, encrypted passwords. Not shared with anyone, ever.</p>
+          <span class="feature-tag">JWT · OAuth · Encrypted</span>
+        </div>
+        <div class="feature-card reveal reveal-delay-1">
+          <div class="feature-number">05</div>
+          <div class="feature-icon-wrap">📊</div>
+          <h3 class="feature-title">Intelligent analytics</h3>
+          <p class="feature-desc">Charts that actually tell you something. Trend lines, comparisons, drill-downs. Built for your business model, not generic dashboards.</p>
+          <span class="feature-tag">Custom KPIs · Recharts</span>
+        </div>
+        <div class="feature-card reveal reveal-delay-2">
+          <div class="feature-number">06</div>
+          <div class="feature-icon-wrap">☁️</div>
+          <h3 class="feature-title">₹0 to host</h3>
+          <p class="feature-desc">Deployed on Vercel and Render with MongoDB Atlas. Free tier handles most businesses. You own the deployment, the domain, and all the data.</p>
+          <span class="feature-tag">Vercel · Render · Atlas</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════
+       INDUSTRIES
+  ══════════════════════════════════════════════════ -->
+  <section class="industries-section" id="industries">
+    <div style="max-width:1200px;margin:0 auto">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:end;margin-bottom:0">
+        <div>
+          <div class="section-label reveal">Industries we serve</div>
+          <h2 class="section-title reveal reveal-delay-1">
+            Built for your<br><em>specific</em> world.
+          </h2>
+        </div>
+        <p class="reveal reveal-delay-2" style="color:var(--muted);font-size:16px;font-weight:300;line-height:1.8;padding-bottom:8px">
+          We don't adapt generic software. We build systems that understand the vocabulary, workflows, and KPIs of your exact industry.
+        </p>
+      </div>
+
+      <div class="industries-grid" style="margin-top:64px">
+        <div class="industry-card reveal" style="--color:#00d4ff">
+          <style>.industry-card:nth-child(1)::after{background:var(--color,#00d4ff)}</style>
+          <span class="industry-emoji">💳</span>
+          <div class="industry-name">Finance & Lending</div>
+          <p class="industry-desc">Loan tracking, EMI management, SI/CI interest calculation, penalty automation, and portfolio dashboards for private lenders.</p>
+          <div class="industry-chip">
+            <span class="chip">SI / CI</span>
+            <span class="chip">EMI</span>
+            <span class="chip">Penalty</span>
+            <span class="chip">WhatsApp</span>
+          </div>
+        </div>
+
+        <div class="industry-card reveal reveal-delay-1" style="--color:#ff7c4a">
+          <style>.industry-card:nth-child(2)::after{background:#ff7c4a}</style>
+          <span class="industry-emoji">🍽️</span>
+          <div class="industry-name">Restaurant & F&B</div>
+          <p class="industry-desc">Order management, kitchen display, table tracking, inventory alerts, daily revenue, and delivery channel analytics.</p>
+          <div class="industry-chip">
+            <span class="chip">Orders</span>
+            <span class="chip">Kitchen</span>
+            <span class="chip">Inventory</span>
+            <span class="chip">POS</span>
+          </div>
+        </div>
+
+        <div class="industry-card reveal reveal-delay-2" style="--color:#00e676">
+          <style>.industry-card:nth-child(3)::after{background:#00e676}</style>
+          <span class="industry-emoji">🏥</span>
+          <div class="industry-name">Clinic & Healthcare</div>
+          <p class="industry-desc">Appointment scheduling, patient records, prescription tracking, billing, and automated appointment reminders via WhatsApp.</p>
+          <div class="industry-chip">
+            <span class="chip">Appointments</span>
+            <span class="chip">Patients</span>
+            <span class="chip">Billing</span>
+            <span class="chip">Reminders</span>
+          </div>
+        </div>
+
+        <div class="industry-card reveal reveal-delay-3" style="--color:#c9a84c">
+          <style>.industry-card:nth-child(4)::after{background:#c9a84c}</style>
+          <span class="industry-emoji">🏢</span>
+          <div class="industry-name">Real Estate</div>
+          <p class="industry-desc">Property portfolio management, lease tracking, maintenance tickets, rent collection, occupancy analytics, and tenant communication.</p>
+          <div class="industry-chip">
+            <span class="chip">Properties</span>
+            <span class="chip">Leases</span>
+            <span class="chip">Maintenance</span>
+            <span class="chip">Rent</span>
+          </div>
+        </div>
+
+        <div class="industry-card reveal" style="--color:#ce93d8">
+          <style>.industry-card:nth-child(5)::after{background:#ce93d8}</style>
+          <span class="industry-emoji">🛍️</span>
+          <div class="industry-name">Retail & E-commerce</div>
+          <p class="industry-desc">Sales dashboards, inventory management, low-stock alerts, customer analytics, order tracking, and performance reporting.</p>
+          <div class="industry-chip">
+            <span class="chip">Sales</span>
+            <span class="chip">Inventory</span>
+            <span class="chip">Customers</span>
+            <span class="chip">Reports</span>
+          </div>
+        </div>
+
+        <div class="industry-card reveal reveal-delay-1" style="--color:#f8f6f2">
+          <style>.industry-card:nth-child(6)::after{background:#f8f6f2}</style>
+          <span class="industry-emoji">🏗️</span>
+          <div class="industry-name">Your Industry</div>
+          <p class="industry-desc">Don't see yours? We've also built for logistics companies, law firms, gyms, coaching institutes, and manufacturing units.</p>
+          <div class="industry-chip">
+            <span class="chip">Custom</span>
+            <span class="chip">Any Stack</span>
+            <span class="chip">Any Scale</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════
+       PROCESS
+  ══════════════════════════════════════════════════ -->
+  <section class="process-section">
+    <div style="max-width:1200px;margin:0 auto">
+      <div class="section-label reveal">How we work</div>
+      <h2 class="section-title reveal reveal-delay-1">
+        From idea to<br><em>live in weeks.</em>
+      </h2>
+
+      <div class="process-grid">
+        <div class="process-step reveal">
+          <div class="process-num">01</div>
+          <h3 class="process-title">Discovery call</h3>
+          <p class="process-desc">We spend 30 minutes understanding your business, your data, and what decisions you need the dashboard to help you make.</p>
+          <div class="process-arrow" style="display:none">→</div>
+        </div>
+        <div class="process-step reveal reveal-delay-1">
+          <div class="process-num">02</div>
+          <h3 class="process-title">Design & scope</h3>
+          <p class="process-desc">We send you a full breakdown of the features, screens, and timeline. Fixed price. No surprises. You approve before we write a line.</p>
+        </div>
+        <div class="process-step reveal reveal-delay-2">
+          <div class="process-num">03</div>
+          <h3 class="process-title">Build & iterate</h3>
+          <p class="process-desc">You get access to a live staging environment during development. Weekly updates. Your feedback shapes every screen in real time.</p>
+        </div>
+        <div class="process-step reveal reveal-delay-3">
+          <div class="process-num">04</div>
+          <h3 class="process-title">Deliver & support</h3>
+          <p class="process-desc">We deploy everything, seed your data, hand over credentials, and stay available for 30 days. You own every file, every server.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════
+       TESTIMONIALS
+  ══════════════════════════════════════════════════ -->
+  <section class="testimonials-section">
+    <div style="max-width:1200px;margin:0 auto">
+      <div class="section-label reveal">What clients say</div>
+      <h2 class="section-title reveal reveal-delay-1">
+        Real results for<br><em>real businesses.</em>
+      </h2>
+
+      <div class="testimonials-grid" style="margin-top:64px">
+        <div class="testimonial-card reveal">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">I was tracking 15 loans in Excel and losing money to calculation errors every month. This dashboard paid for itself in the first week.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" style="background:linear-gradient(135deg,#00d4ff,#0088aa)">R</div>
+            <div>
+              <div class="testimonial-name">Rajesh Gupta</div>
+              <div class="testimonial-role">Private Lender · Delhi</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal reveal-delay-1">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">Our restaurant used to close at night not knowing if we made money. Now we see real-time revenue, top dishes, and table turns on our phones.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" style="background:linear-gradient(135deg,#ff7c4a,#c94a20)">P</div>
+            <div>
+              <div class="testimonial-name">Priya Mehta</div>
+              <div class="testimonial-role">Restaurant Owner · Mumbai</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal reveal-delay-2">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">Patient follow-ups used to be a full-time job. Now WhatsApp reminders go out automatically. My clinic feels like it runs itself.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" style="background:linear-gradient(135deg,#00e676,#00994d)">S</div>
+            <div>
+              <div class="testimonial-name">Dr. Suresh Pillai</div>
+              <div class="testimonial-role">Clinic Director · Bangalore</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════
+       PRICING
+  ══════════════════════════════════════════════════ -->
+  <section class="pricing-section" id="pricing">
+    <div style="max-width:1100px;margin:0 auto">
+      <div style="text-align:center;margin-bottom:0">
+        <div class="section-label reveal" style="justify-content:center">Transparent pricing</div>
+        <h2 class="section-title reveal reveal-delay-1" style="text-align:center">
+          One-time build.<br><em>Yours forever.</em>
+        </h2>
+        <p class="reveal reveal-delay-2" style="color:var(--muted);font-size:16px;font-weight:300;margin-top:16px;max-width:480px;margin-left:auto;margin-right:auto;line-height:1.7">
+          No monthly SaaS fees. No per-user pricing. You pay once, we build it, you own it completely.
+        </p>
+      </div>
+
+      <div class="pricing-grid" style="margin-top:64px">
+        <div class="pricing-card reveal">
+          <div class="pricing-plan">Starter</div>
+          <div class="pricing-price"><sup>₹</sup><span data-count="25000">0</span></div>
+          <div class="pricing-period">one-time · delivered in 2 weeks</div>
+          <div class="pricing-divider"></div>
+          <div class="pricing-feature"><span class="pricing-check">✦</span>Dashboard with up to 5 KPI cards</div>
+          <div class="pricing-feature"><span class="pricing-check">✦</span>Basic CRUD operations</div>
+          <div class="pricing-feature"><span class="pricing-check">✦</span>Email/password login</div>
+          <div class="pricing-feature"><span class="pricing-check">✦</span>Mobile responsive</div>
+          <div class="pricing-feature"><span class="pricing-check">✦</span>Deployed to Vercel + Render</div>
+          <div class="pricing-feature"><span class="pricing-check">✦</span>30 days support</div>
+          <a href="https://www.instagram.com/webgrowth.in" target="_blank" class="pricing-cta pricing-cta-ghost">Start with Starter</a>
+        </div>
+
+        <div class="pricing-card featured reveal reveal-delay-1">
+          <div class="pricing-badge">Most Popular</div>
+          <div class="pricing-plan">Professional</div>
+          <div class="pricing-price"><sup>₹</sup><span data-count="60000">0</span></div>
+          <div class="pricing-period">one-time · delivered in 3–4 weeks</div>
+          <div class="pricing-divider"></div>
+          <div class="pricing-feature"><span class="pricing-check">✦</span>Everything in Starter</div>
+          <div class="pricing-feature"><span class="pricing-check">✦</span>Live interest / real-time counters</div>
+          <div class="pricing-feature"><span class="pricing-check">✦</span>Auto WhatsApp reminders</div>
+          <div class="pricing-feature"><span class="pricing-check">✦</span>PDF statement generation</div>
+          <div class="pricing-feature"><span class="pricing-check">✦</span>Advanced charts & analytics</div>
+          <div class="pricing-feature"><span class="pricing-check">✦</span>Google OAuth login</div>
+          <div class="pricing-feature"><span class="pricing-check">✦</span>Pagination & search</div>
+          <div class="pricing-feature"><span class="pricing-check">✦</span>60 days priority support</div>
+          <a href="https://www.instagram.com/webgrowth.in" target="_blank" class="pricing-cta pricing-cta-solid">Get Professional</a>
+        </div>
+
+        <div class="pricing-card reveal reveal-delay-2">
+          <div class="pricing-plan">Enterprise</div>
+          <div class="pricing-price" style="font-size:36px;padding-top:8px">Custom</div>
+          <div class="pricing-period">scoped per project · 4–8 weeks</div>
+          <div class="pricing-divider"></div>
+          <div class="pricing-feature"><span class="pricing-check">✦</span>Everything in Professional</div>
+          <div class="pricing-feature"><span class="pricing-check">✦</span>Multi-branch / multi-user</div>
+          <div class="pricing-feature"><span class="pricing-check">✦</span>Custom domain + branding</div>
+          <div class="pricing-feature"><span class="pricing-check">✦</span>API integrations (Razorpay, Sheets...)</div>
+          <div class="pricing-feature"><span class="pricing-check">✦</span>Role-based access control</div>
+          <div class="pricing-feature"><span class="pricing-check">✦</span>Scheduled reports via email</div>
+          <div class="pricing-feature"><span class="pricing-check">✦</span>90 days dedicated support</div>
+          <a href="https://www.instagram.com/webgrowth.in" target="_blank" class="pricing-cta pricing-cta-ghost">Let's Talk Scope</a>
+        </div>
+      </div>
+
+      <p class="reveal" style="text-align:center;color:var(--muted);font-size:13px;font-family:'JetBrains Mono',monospace;margin-top:32px;letter-spacing:0.04em">
+        All prices in INR. International clients welcome — USD/GBP/EUR accepted.
+      </p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════
+       CTA
+  ══════════════════════════════════════════════════ -->
+  <section class="cta-section">
+    <div class="cta-bg-orb"></div>
+    <div class="section-label reveal" style="justify-content:center">Let's build something</div>
+    <h2 class="cta-headline reveal reveal-delay-1">
+      Your business<br>deserves a<br><em>real dashboard.</em>
+    </h2>
+    <p class="cta-sub reveal reveal-delay-2">
+      DM us on Instagram. Tell us your business type and what you need. We'll reply within 24 hours with a proposal.
+    </p>
+    <div class="cta-actions reveal reveal-delay-3">
+      <a href="https://www.instagram.com/webgrowth.in" target="_blank" class="btn-ig">
+        <span>📸</span>
+        DM on Instagram
+      </a>
+      <a href="#demo" class="btn-hero btn-hero-ghost" style="font-size:14px;padding:16px 28px">
+        ↑ See Demo Again
+      </a>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════════ -->
+  <footer>
+    <div class="footer-copy">
+      © 2026 WebGrowth. All rights reserved.
+    </div>
+    <div class="footer-center">
+      <div class="logo-mark" style="width:24px;height:24px;border-radius:4px"></div>
+      WebGrowth
+    </div>
+    <ul class="footer-links">
+      <li><a href="https://www.instagram.com/webgrowth.in" target="_blank">Instagram</a></li>
+      <li><a href="#demo">Demo</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+    </ul>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
